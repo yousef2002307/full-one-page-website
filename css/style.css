@@ -1,0 +1,314 @@
+body {
+  font-size: 16px;
+}
+header {
+  background-image: url("../img/hero-bcg.jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+header .title {
+  flex-basis: 250px;
+  text-align: center;
+}
+header .title h2 {
+  color: #70dcde;
+  margin: 0;
+  margin-top: 11px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-family: "Oswald", sans-serif;
+}
+header .title h5 {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  margin-left: auto;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 22px 49px;
+  font-size: 20px;
+  font-weight: 100;
+}
+header .main {
+  text-align: center;
+  margin-top: 70px;
+}
+header .main h2 {
+  font-size: 3rem;
+  width: 50%;
+  margin: auto;
+  text-transform: capitalize;
+}
+header .main p {
+  font-size: 1.9rem;
+  width: 50%;
+  margin: 15px auto;
+}
+header .main button {
+  background-color: #70dcde;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  border-radius: 7px;
+}
+header hr,
+.about hr,
+.judges hr,
+.qa hr {
+  background-color: #70dcde;
+  background-color: rgb(112, 220, 222);
+  width: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -175px;
+}
+/* about */
+.about {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #2b2c3e;
+  color: #eceff8;
+  position: relative;
+}
+.about p {
+  font-size: 0.9rem;
+  line-height: 1.9;
+}
+.about span {
+  font-size: 0.9rem;
+}
+.about span a {
+  color: inherit;
+  text-decoration: underline;
+}
+.about h4 {
+  margin-top: 35px;
+  text-transform: capitalize;
+  color: #70dcde;
+}
+.about ul li i {
+  color: #70dcde;
+}
+.about ul li p {
+  font-size: 0.8rem;
+}
+.about .col-md-6:nth-child(2) h4:first-of-type {
+  margin-top: 0;
+}
+.about blockquote p {
+  font-style: italic;
+}
+.about .d-flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.about .d-flex > span {
+  flex: 1 1 21px;
+  margin-right: 10px;
+  background-color: #40424f;
+  margin-bottom: 26px;
+  padding: 5px 14px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 27px;
+  /* max-width: 145px; */
+  color: #fcffff;
+  text-align: center;
+  cursor: pointer;
+
+  text-align: center;
+  cursor: pointer;
+}
+/*about*/
+
+/*judges*/
+.judges {
+  background-color: #2b2c3e;
+  position: relative;
+}
+.judges bold {
+  display: block;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.judges h3 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 49px;
+}
+.judges .container {
+  margin-top: 100px;
+}
+.judges img {
+  display: block;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+  border: 2px solid #ddd;
+}
+.judges .col-md-3 {
+  text-align: center;
+}
+.judges span {
+  color: #ddd;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+/*judges*/
+/*qa */
+.qa {
+  background-color: #2b2c3e;
+  padding-top: 90px;
+  position: relative;
+  padding-bottom: 90px;
+}
+.qa .header {
+  position: relative;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.qa .question {
+  width: 650px;
+  margin: 10px auto;
+  margin-bottom: 10px;
+}
+.qa i {
+  position: absolute;
+  color: #fff;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.qa .footer {
+  color: #fff;
+  padding: 10px;
+  display: none;
+  margin-top: 10px;
+}
+.qa h4 {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+.qa button {
+  background-color: transparent;
+  /* border-top: 1px solid #fff; */
+  /* border: none; */
+  padding: 10px 15px;
+  border-radius: 27px;
+  display: inline-block;
+  margin-left: 230px;
+  margin-top: 15px;
+  border-top: 1px solid #fbfdff;
+  border-bottom: 1px solid #fbfdff;
+  border-left: 1px solid #cbcdda;
+  color: #fff;
+  border-right: 1px solid #cbcdda;
+}
+/* nomination */
+.nomination {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #2b2c3e;
+}
+.nomination h4 {
+  color: #85d7d5;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 29px;
+}
+.nomination .bulk {
+  width: 700px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #191b27;
+  padding: 25px 24px 50px;
+  border-top: 3px solid #a8e4ee;
+  position: relative;
+  margin-bottom: 150px;
+}
+.nomination input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #767884;
+  margin-bottom: 20px;
+  display: block;
+  width: 85%;
+  padding: 10px 0;
+}
+.nomination .bulk h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: normal;
+}
+.nomination button {
+  background-color: #80f5fc;
+  background-color: #80f5fc;
+  border: none;
+  font-size: 20px;
+  padding: 8px 17px;
+  text-transform: capitalize;
+  position: absolute;
+  left: 50%;
+  margin-left: -85px;
+  bottom: -20px;
+  font-weight: bold;
+}
+footer {
+  background-color: #2b2c3e;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+footer p {
+  text-align: center;
+}
+/*media
+
+*/
+@media (max-width: 576px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 991px) {
+  header .main h2 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  header .main p {
+    font-size: 1.9rem;
+    width: 100%;
+  }
+}
+@media (max-width: 1999px) {
+}
